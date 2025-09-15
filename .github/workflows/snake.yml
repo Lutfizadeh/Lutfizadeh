@@ -2,33 +2,26 @@ name: Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # setiap 12 jam
-  workflow_dispatch: # bisa jalan manual dari tab Actions
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout repo
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      # 2️⃣ Generate snake animation
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
+          github_user_name: Lutfizadeh
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          output: dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
 
-      # 3️⃣ Setup Git (agar bisa push)
-      - name: Setup Git
+      - name: Push to output branch
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
-      # 4️⃣ Commit & Push ke branch output
-      - name: Push to output branch
-        run: |
           git checkout -B output
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Update GitHub contribution snake" || echo "No changes to commit"
