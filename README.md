@@ -72,7 +72,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/Lutfizadeh/Lutfizadeh/output/dist/github-contribution-grid-snake.svg alt="Snake animation" />
+  <img src="dist/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
