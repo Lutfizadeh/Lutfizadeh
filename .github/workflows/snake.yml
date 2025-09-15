@@ -2,7 +2,7 @@ name: Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # tiap 12 jam
   workflow_dispatch:
 
 jobs:
@@ -18,13 +18,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push to output branch
+      - name: Commit and Push to main
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git checkout -B output
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Update GitHub contribution snake" || echo "No changes to commit"
-          git push -u origin output --force
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
