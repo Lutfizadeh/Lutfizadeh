@@ -72,7 +72,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/Lutfizadeh/Lutfizadeh/blob/output/snake.svg" alt="Snake animation" />
+  <img src="dist/snake.svg" alt="Snake animation" />
 </p>
 
 ---
