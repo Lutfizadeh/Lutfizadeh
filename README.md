@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F260&center=true&vCenter=true&width=600&lines=Hi+👋,+I'm+Lutfi+Zadeh;Informatics+Engineering+Student;Passionate+with+AI/ML+%26+IOT;Currently+Learning+Next.js;And+Still+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F260&center=true&vCenter=true&width=600&lines=Hi+👋,+I'm+Lutfi+Zadeh;Informatics+Engineering+Student;Passionate+with+AI/ML+%26+IOT;Currently+Learning+Google+Cloud+Platform;Still+Learning+New+Things" alt="Typing SVG" />
 </h1>
 
 ---
@@ -87,6 +87,5 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/lutfi-zadeh-8bba63317/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:lutfizadeh5@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/Lutfizadeh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://lutfizadeh.github.io/"><img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
 </p>
