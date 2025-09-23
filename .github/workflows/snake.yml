@@ -2,7 +2,7 @@ name: Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # tiap 12 jam
+    - cron: "0 0 */14 * *" # tiap 12 jam
   workflow_dispatch:
 
 jobs:
